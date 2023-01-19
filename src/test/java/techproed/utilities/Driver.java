@@ -25,7 +25,6 @@ public class Driver {
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver(new ChromeOptions().setHeadless(true));
                     break;
-
                 case "edge":
                     WebDriverManager.edgedriver().setup();
                     driver=new EdgeDriver();
